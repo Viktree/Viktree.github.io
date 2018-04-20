@@ -1,0 +1,55 @@
+<div class="sidebar sidebar-main">
+
+  <div class="sidebar-sticky sidebar-logo">
+    {% include tor.svg alt="Jekyll" %}
+  </div>
+
+  <div class="container sidebar-sticky">
+
+    <div class="sidebar-title">
+      <br />
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <div class="sidebar-tagline">
+          {{ site.description }}
+      </div>
+    </div>
+
+    <br/>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Resume</a>
+    </nav>
+
+    <br/>
+
+    <span class="sidebar-icons">
+        <a class="btn" href="viktree@gmail.com"><i class="fas fa-envelope-open"></i></a>
+        <a class="btn" href="https://github.com/viktree"><i class="fab fa-github"></i></a>
+        <a class="btn" href="https://www.linkedin.com/in/vikramvenkataramanan/"><i class="fab fa-linkedin"></i></a>
+        <a class="btn" href="https://facebook.com/vikram.venkataramanan"><i class="fab fa-facebook-square"></i></a>
+        <!-- <a class="btn" href="#"><i class="fas fa-chess"></i></a> -->
+    </span>
+
+    <br/>
+  </div>
+</div>

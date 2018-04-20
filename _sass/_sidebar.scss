@@ -1,0 +1,76 @@
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+
+    text-align      : center;
+    padding         : 2rem 1rem;
+    color           : rgba(255,255,255,.5);
+    background-color: $sidebar-dark;
+    text-decoration : none;
+
+    /* Sidebar links */
+    a {
+        color: $sidebar-orange;
+        text-decoration:none;
+    }
+
+    a:hover {
+        color: $sidebar-green;
+        text-decoration:none;
+    }
+
+    .sidebar-sticky {
+        background-color: $sidebar-dark;
+    }
+
+    .sidebar-nav-item {
+      display: block;
+      line-height: 1.75;
+    }
+
+    .sidebar-logo {
+        background-color: $background-white;
+        width: 100%;
+        margin-bottom: -10%;
+    }
+
+    .sidebar-title {
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sidebar-tagline {
+        font-size: 12pt;
+        color: $background-white;
+        opacity: 10%;
+    }
+
+    .sidebar-icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (min-width: 48em) {
+    .sidebar {
+        position  : fixed;
+        top       : 0;
+        left      : 0;
+        bottom    : 0;
+        width     : 18rem;
+        text-align: left;
+    }
+}
+
+.sidebar-main {
+    background-color: $background-white;
+}
