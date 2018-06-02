@@ -10,7 +10,7 @@
       <br />
       <h1>
         <a href="{{ site.url }}{{ site.baseurl }}">
-          {{ site.title }}
+          {% include viktree.svg alt="Jekyll" %}
         </a>
       </h1>
       <div class="sidebar-tagline">
@@ -35,19 +35,11 @@
     <br/>
 
     <span class="sidebar-icons">
-      <a class="btn" href="mailto:viktree@gmail.com">
-        <i class="fas fa-envelope-open"></i>
-      </a>
-      <a class="btn" href="https://github.com/viktree">
-        <i class="fab fa-github"></i>
-      </a>
-      <a class="btn" href="https://www.linkedin.com/in/vikramvenkataramanan/">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a class="btn" href="https://facebook.com/vikram.venkataramanan">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <!-- <a class="btn" href="#"><i class="fas fa-chess"></i></a> -->
+      {% for contact in site.data.contacts %}
+        <a class="btn" href="{{ contact.link }}">
+          <i class="{{ contact.icon }}"></i>
+        </a>
+      {% endfor %}
     </span>
 
     <br/>

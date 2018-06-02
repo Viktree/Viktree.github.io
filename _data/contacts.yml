@@ -1,0 +1,15 @@
+- name: Mail
+  link: "mailto:viktree@gmail.com"
+  icon: "fas fa-envelope-open"
+
+- name: Github
+  link: "https://github.com/viktree"
+  icon: "fab fa-github"
+
+- name: LinkedIn
+  link: "https://www.linkedin.com/in/vikramvenkataramanan/"
+  icon: "fab fa-linkedin"
+
+- name: Facebook
+  link: "https://facebook.com/vikram.venkataramanan"
+  icon: "fab fa-facebook-square"
