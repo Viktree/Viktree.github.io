@@ -11,20 +11,24 @@
 	color: rgba(255, 255, 255, 0.5);
 	background-color: $sidebar-dark;
 	text-decoration: none;
+	padding: 0;
 
 	/* Sidebar links */
 	a {
-		color: $sidebar-orange;
+		color: $main-green;
 		text-decoration: none;
 	}
 
 	a:hover {
-		color: $sidebar-green;
+		color: $main-orange;
 		text-decoration: none;
 	}
 
 	.sidebar-sticky {
 		background-color: $sidebar-dark;
+		margin-top: -8%;
+		position: absolute;
+		width: 100%;
 	}
 
 	.sidebar-nav-item {
@@ -36,17 +40,6 @@
 		background-color: $background-white;
 		width: 100%;
 		margin-bottom: -10%;
-	}
-
-	.sidebar-title {
-		text-align: center;
-		font-family: 'Montserrat', sans-serif;
-	}
-
-	.sidebar-tagline {
-		font-size: 12pt;
-		color: $background-white;
-		opacity: 10%;
 	}
 
 	.sidebar-icons {
@@ -70,5 +63,5 @@
 }
 
 .sidebar-main {
-	background-color: $background-white;
+	background-color: $sidebar-dark;
 }

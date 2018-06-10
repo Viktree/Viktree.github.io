@@ -1,27 +1,27 @@
 /**
  * Set site colours
  */
-$sidebar-dark: #272822;
-$sidebar-orange: #E55934;
-$sidebar-green: #5FBB97;
-$background-white: #F1F1F1;
-$main-brown: #4F3130;
-$main-green: #34403A;
+$sidebar-dark: #1e1e1e; // #272822;
+$main-orange: #e55934;
+$main-green: #5fbb97;
+$background-white: #f1f1f1;
+$main-brown: #4f3130;
+// $main-green: #34403a;
 /*
  * Global resets
  *
  * Update the foundational and global aspects of the page.
  */
 html {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
-    html {
-        font-size: 16px;
-    }
+	html {
+		font-size: 16px;
+	}
 }
 @media (min-width: 58em) {
-    html {
-        font-size: 20px;
-    }
+	html {
+		font-size: 20px;
+	}
 }

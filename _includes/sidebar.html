@@ -1,6 +1,6 @@
 <div class="sidebar sidebar-main">
 
-  <div class="sidebar-sticky sidebar-logo">
+  <div class="sidebar-logo">
     {% include tor.svg alt="Jekyll" %}
   </div>
 
@@ -13,14 +13,15 @@
           {% include viktree.svg alt="Jekyll" %}
         </a>
       </h1>
-      <div class="sidebar-tagline">
-        {{ site.description }}
-      </div>
+      <p class="sidebar-tagline">
+        This is {{ site.description }}.
+        He is a computer science student <a class="sidebar-tagline-link" href="https://www.utoronto.ca/">@UofT</a> who is currently working as a fullstack developer <a href="https://www.ecobee.com/">@ecobee</a>.
+      </p>
     </div>
 
     <br/>
 
-    <nav class="sidebar-nav">
+    {% comment %} <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}{{ site.baseurl}}">Home</a>
 
       {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
@@ -30,7 +31,7 @@
       {% endif %} {% endif %} {% endfor %}
 
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Resume</a> -->
-    </nav>
+    </nav> {% endcomment %}
 
     <br/>
 
