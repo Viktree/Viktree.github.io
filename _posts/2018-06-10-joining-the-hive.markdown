@@ -8,6 +8,8 @@ Back in May, I began my Professional Experience Year (PEY). [PEY](http://web.cs.
 
 Around a decade ago, Ecobee started selling smart, wifi-enabled thermostats. Unlike the other thermostats at the time, 'Ecobees' can be programmed remotely to set the temperature. This way, people can avoid heating and cooling their homes during hours of the day when no one is home. Instead, they can try proactively to adjust the temperature to where they want it before they get home. With rising energy costs and the creeping problem of climate change, it wasn't long before people began to realize the importance of such products. Today, there are other smart thermostats that have entered the marketplace. The most notable of Ecobee's competitors is [Nest Labs](https://nest.com/ca/), a company that was later acquired by Google for $3.2 billion. Despite getting vastly outspent by many of its competitors, Ecobee has managed to remain a competitive player in the thermostat market thanks to its accurate measurement of temperature, developer friendly platforms, ease of use, and support for customers.
 
+![](/assets/ecobee_office.jpg)
+
 _The company has started to use numerous bee related metaphors. The main office of Ecobee, seen above, is colloquially called as 'the hive' (This is not to be mistaken with Hive, one of our competitors)._
 
 Ecobee is a growing midsize company. Within a couple of weeks, after I joined, the company received over $50 million in funding from Amazon, crossed the one million user threshold, and surpassed three hundred employees. Now, with the recent launch of the switch+ lightswitch, Ecobee is planning to harness growing IoT demands and expand past thermostats into the world of connected, smart homes.
