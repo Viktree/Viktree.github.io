@@ -21,7 +21,7 @@
 
     <br/>
 
-    {% comment %} <nav class="sidebar-nav">
+    <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}{{ site.baseurl}}">Home</a>
 
       {% comment %} The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme
@@ -31,9 +31,9 @@
       {% endif %} {% endif %} {% endfor %}
 
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Resume</a> -->
-    </nav> {% endcomment %}
+    </nav>
 
-    <br/>
+    <br/><br/>
 
     <span class="sidebar-icons">
       {% for contact in site.data.contacts %}
