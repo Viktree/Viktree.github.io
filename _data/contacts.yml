@@ -1,5 +1,6 @@
+
 - name: Mail
-  link: "mailto:viktree@gmail.com"
+  link: "mailto:viktree@yahoo.com"
   icon: "fas fa-envelope-open"
 
 - name: Github
@@ -13,3 +14,7 @@
 - name: Facebook
   link: "https://facebook.com/vikram.venkataramanan"
   icon: "fab fa-facebook-square"
+
+- name: Chess
+  link: "https://lichess.org/@/viktree"
+  icon: "fas fa-chess"
