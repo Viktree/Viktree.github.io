@@ -50,14 +50,14 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-	color: $main-orange;
+	color: $sidebar-dark;
 	text-decoration: none;
 }
 
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-	color: $main-green;
+	color: $sidebar-light;
 	text-decoration: none;
 }
 
