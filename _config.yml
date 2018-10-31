@@ -26,6 +26,7 @@ github_username:  viktree
 markdown: kramdown
 
 theme: minima
+title: Vikram's Site
 plugins:
   - jekyll-feed
 
@@ -40,5 +41,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-#
 #
